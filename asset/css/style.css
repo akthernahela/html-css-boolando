@@ -15,7 +15,7 @@
     --boo-lighter: #ffffff;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
@@ -55,31 +55,40 @@ header {
 
 /* #region main */
 
-main{
-    padding: 50px 80px;
-    width: 70%;
-
-    .samples{
+main {
+    .samples {
         display: flex;
         flex-direction: column;
     }
 
-    .newprice{
+    .newprice {
         color: var(--boo-offer);
     }
 
-    img{
-        height: 500px;
+    img {
+        height: 300px;
+        width: 250px;
     }
 }
 
-.container-top figure{
+.container {
     width: 70%;
+    max-width: 1150px;
     margin: auto;
-    display: flex;
-    justify-content: flex-start;
-
+    padding: 50px;
 }
+
+.card-top,
+.card-buttom{
+    display: flex; 
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+
+
+
 
 
 /* #endregion main */
