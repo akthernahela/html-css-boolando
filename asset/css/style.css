@@ -85,10 +85,86 @@ main {
     padding-bottom: 50px;
 }
 
+/* #region position perfect*/
 
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6{
+    position: relative;
+}
 
+.wishlist{
+    position: absolute;
+    top: 10px;
+    background-color: var(--boo-lighter);
+    padding: 5px;
+    text-align: center;
+    left: 90%;
+}
 
+.discount{
+    background-color: var(--boo-offer);
+    width: 50px;
+    color: var(--boo-lighter);
+    text-align: center;
+    font-size: small;
+    position: absolute;
+    top: 70%;
+}
 
+.ecology{
+    font-size: small;
+    background-color: var(--boo-hilighte);
+    width: 90px;
+    color: var(--boo-lighter);
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 22%
+}
 
+.ecology-only{
+    font-size: small;
+    background-color: var(--boo-hilighte);
+    width: 90px;
+    color: var(--boo-lighter);
+    text-align: center;
+    position: absolute;
+    top: 70%;
+}
+
+/* #endregion position perfect*/
 
 /* #endregion main */
+
+/* #region footer */
+
+footer{
+    background-color: var(--boo-secondary);
+    color: var(--boo-lighter);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 5px solid var(--boo-lighter);
+
+    a{
+        text-decoration: none;
+        color: var(--boo-lighter);
+    }
+}
+
+.company{
+    line-height: 1.5rem;
+}
+
+.other-source{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #endregion footer */
