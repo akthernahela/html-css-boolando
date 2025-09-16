@@ -136,6 +136,29 @@ main {
     top: 70%;
 }
 
+.more{
+    display: none;
+    position: absolute;
+}
+.item1:hover .more{
+    display: block;
+}
+.item2:hover .more{
+    display: block;
+}
+.item3:hover .more{
+    display: block;
+}
+.item4:hover .more{
+    display: block;
+}
+.item5:hover .more{
+    display: block;
+}
+.item6:hover .more{
+    display: block;
+}
+
 /* #endregion position perfect*/
 
 /* #endregion main */
